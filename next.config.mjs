@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: "/RazvanBanateanu",
+    basePath: "/BanateanuRazvan",
     output: "export",
     reactStrictMode: true,
 };
