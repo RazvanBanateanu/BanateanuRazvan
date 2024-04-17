@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: #ffebcd;
+}
+
+
+.text-stroke-3 {
+  color: transparent;
+  -webkit-text-stroke: 0.05rem rgb(3, 49, 8);
+  letter-spacing: .1rem
+}
